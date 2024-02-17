@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 const Nav = () => {
-    const active = ({ isActive } : { isActive : boolean})=>["font-thin text-2xl ms-3 transition duration-300 ease-in-out hover:underline hover:decoration-sky-600 hover:text-slate-400", isActive ? "font-bold underline underline-offset-1" : null].filter(Boolean).join(" ");
+    const active = ({ isActive } : { isActive : boolean})=>["font-thin text-2xl ms-3 transition duration-300 ease-in-out hover:italic  hover:text-slate-400", isActive ? "font-bold italic underline-offset-1" : null].filter(Boolean).join(" ");
   return (
     <>
      

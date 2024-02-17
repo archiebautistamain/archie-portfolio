@@ -13,7 +13,7 @@ const Layout = () => {
                   <div className="flex justify-center items-center">
                     <Home />
                   </div>
-                  <div className="">
+                  <div className="overflow-hidden">
                     <Outlet />
                   </div>
                 </div>
